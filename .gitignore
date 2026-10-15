@@ -1,0 +1,20 @@
+# Exclude Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Exclude Local Vector Database (Generated dynamically)
+vector_store/
+
+# Exclude Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Exclude OS generated files
+Thumbs.db
+db.properties
+.DS_Store

@@ -1,0 +1,12 @@
+app_settings:
+  title: "Assistant IA Universel"
+  theme: "dark"
+  system_instruction: "" 
+
+ai_models:
+  llm_model: "gemini-1.5-flash"
+  embedding_model: "all-MiniLM-L6-v2"
+
+chunking:
+  size: 500
+  overlap: 50
